@@ -485,6 +485,30 @@ const DATA = {"min_year":1968,"max_year":2026,"pbsc_order":["习近平","李强"
     });
     renderSidebar(DATA.min_year);
 
+    // Native roam's wheel-zoom step is a fixed ~10% per wheel event
+    // regardless of how hard you scrolled -- there's no built-in "zoom
+    // speed" option to just turn down. Rather than replace ECharts' own
+    // zoom handling again (a hand-rolled version of this kept desyncing
+    // the map's boundary redraw from the scatter dots, however it was
+    // tuned -- see the roam config above), this swallows every other wheel
+    // event before ECharts ever sees it, in the capture phase so it runs
+    // before ECharts' own listener on the canvas underneath. Half the
+    // events reach ECharts, so it takes about twice the scrolling to reach
+    // any given zoom level -- all the actual zooming and rendering still
+    // goes through ECharts' native, guaranteed-in-sync path untouched.
+    let wheelEventCount = 0;
+    document.getElementById("chart").addEventListener(
+      "wheel",
+      function (e) {
+        wheelEventCount++;
+        if (wheelEventCount % 2 === 0) {
+          e.preventDefault();
+          e.stopPropagation();
+        }
+      },
+      { capture: true, passive: false }
+    );
+
     // Native range input drives the year instead of ECharts' own timeline
     // component -- click-anywhere-to-jump and drag are both guaranteed
     // native browser behavior for <input type="range">, not something we
