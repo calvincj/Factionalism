@@ -28,7 +28,7 @@ eyeballing bios.
    match is a "pair," and pairs get pooled into a connection score per
    person relative to each PBSC member.
 4. Everything lands in `Faction_data/outputs/Connections Data.xlsx`, and also
-   gets turned into an interactive map (`PBSC Connections Tracking Map.html`)
+   gets turned into an interactive map (`pbsc-connections-map.html`)
    that shows where everyone was posted, year by year, from 1968 to 2026.
 
 ## Regenerating stuff

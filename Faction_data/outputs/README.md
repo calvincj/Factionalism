@@ -29,7 +29,7 @@ The four data files below, plus one visualization.
    still trace a specific claim back to its source if needed.
 
 ## Visualization
-- **`PBSC Connections Tracking Map.html`** — open directly in a browser (not a Claude
+- **`pbsc-connections-map.html`** — open directly in a browser (not a Claude
   Artifact, a plain local file). A real China province map (actual GeoJSON
   boundaries, embedded, from the standard Aliyun DataV Geo Atlas source) with
   a year timeline (1968–2026, play button included) showing where the 7 PBSC

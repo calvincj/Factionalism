@@ -31,7 +31,7 @@ output, produces `outputs/Connections Data.xlsx`.
   PBSC + everyone in `Connections Data.xlsx`'s Top Connectors, for the China
   map. Imports from both `data_collection/` and `analysis/`. Writes
   `map_data.json` (same folder) — the actual HTML map
-  (`outputs/PBSC Connections Tracking Map.html`) embeds this plus a GeoJSON
+  (`outputs/pbsc-connections-map.html`) embeds this plus a GeoJSON
   China boundary file via a one-off assembly step, not itself checked in
   here as a script.
 
