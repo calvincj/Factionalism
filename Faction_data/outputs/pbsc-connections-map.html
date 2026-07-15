@@ -313,7 +313,7 @@ const DATA = {"min_year":1968,"max_year":2026,"pbsc_order":["习近平","李强"
         let lng = base[0], lat = base[1];
         if (entries.length > 1) {
           const angle = (i / Math.max(otherEntries.length, 1)) * Math.PI * 2 + 0.4;
-          const r = (noPbscHere ? 0.32 : 0.6) + Math.min(entries.length, 10) * (noPbscHere ? 0.035 : 0.06);
+          const r = (noPbscHere ? 0.32 : 0.4) + Math.min(entries.length, 10) * (noPbscHere ? 0.035 : 0.045);
           lng += Math.cos(angle) * r;
           lat += Math.sin(angle) * r * 0.8;
         }
