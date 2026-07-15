@@ -1,0 +1,168 @@
+﻿Person Chinese Name,Person Pinyin Name,Person Title,PBSC Chinese Name,PBSC Pinyin Name,Binary Overlap,Distinct Anchor Count,Shared Anchors,Anchor Types,Total Episode Pair Count,Total Anchor-Years,Max Continuous Overlap Years,Earliest Overlap Start,Latest Overlap End,Years From Last Overlap To 20th CC,Timing Bucket,Strongest Mechanical Confidence,Manual Faction Label,Manual Faction Notes,Weighted Overlap Score,Person Data Quality
+赵一德,Zhao Yide,Secretary of the Shaanxi Provincial Party Committee,李强,Li Qiang,1,1,浙江,province/municipality,47,35,35,1982,2016,6,medium-term before 20th Congress,High,,,66.25,usable
+陈一新,Chen Yixin,Minister of State Security; Member of the Central Political and Legal Affairs Commission,李强,Li Qiang,1,1,浙江,province/municipality,38,35,32,1976,2015,7,medium-term before 20th Congress,High,,,64.0,usable
+应勇,Ying Yong,Procurator-General of the Supreme People's Procuratorate,李强,Li Qiang,1,2,上海; 浙江,province/municipality,45,32,22,1976,2020,2,recent before 20th Congress,High,,,62.25,usable
+楼阳生,Lou Yangsheng,Former Party Chief of Henan Province (retired),李强,Li Qiang,1,2,浙江; 浙江大学,province/municipality; university/research,42,34,28,1976,2009,13,older overlap,High,,,61.8,usable
+黄坤明,Huang Kunming,Secretary of the Guangdong Provincial Party Committee,蔡奇,Cai Qi,1,2,浙江; 福建,province/municipality,33,32,17,1983,2013,9,medium-term before 20th Congress,High,,,60.25,usable
+曲青山,Qu Qingshan,President of CCP History and Literature Research Institute,赵乐际,Zhao Leji,1,1,青海,province/municipality,36,29,22,1974,2007,15,older overlap,High,Y,Qinghai,59.5,usable
+陈敏尔,Chen Min'er,Politburo member; Party secretary of Tianjin,李强,Li Qiang,1,1,浙江,province/municipality,41,31,31,1982,2012,10,medium-term before 20th Congress,High,,,58.75,usable
+徐麟,Xu Lin,Secretary of the Guizhou Provincial Party Committee,丁薛祥,Ding Xuexiang,1,1,上海,province/municipality,30,32,32,1982,2013,9,medium-term before 20th Congress,High,,,57.5,usable
+王予波,Wang Yubo,"Deputy Secretary of the Yunnan Province Party Committee; Governer of Yunnan Province; Secretary, Party Leadership Group",赵乐际,Zhao Leji,1,1,青海,province/municipality,30,25,24,1980,2007,15,older overlap,High,Y,Qinghai,52.0,usable
+王文涛,Wang Wentao,Minister and Secretary of Party Leadership Group of Ministry of Commerce ,丁薛祥,Ding Xuexiang,1,1,上海,province/municipality,24,26,21,1985,2011,11,older overlap,High,Y,Shanghai,52.0,usable
+严金海（藏族）,Yan Jinhai (Zangzu),"Deputy Secretary of the Tibet Autonomous Region Party Committee, Secretary of the Party Leadership Group of the Standing Committee of the Tibet Autonomous Region People's Congress, and Chairman",赵乐际,Zhao Leji,1,1,青海,province/municipality,29,28,28,1980,2007,15,older overlap,High,,,51.25,usable
+王曦,Wang Xi,Vice Governor of Guangdong,丁薛祥,Ding Xuexiang,1,1,上海,province/municipality,28,27,27,1987,2013,9,medium-term before 20th Congress,High,,,49.5,usable
+沈晓明,Shen Xiaoming,Secretary of the Hunan Provincial Party Committee,丁薛祥,Ding Xuexiang,1,1,上海,province/municipality,27,26,26,1988,2013,9,medium-term before 20th Congress,High,,,47.75,usable
+唐登杰,Tang Dengjie,Sectretary of the Shanxi  Provincial Party Committee,丁薛祥,Ding Xuexiang,1,1,上海,province/municipality,20,26,26,1986,2011,11,older overlap,High,,,46.0,usable
+王小洪,Wang Xiaohong,Member of Secretariat of the CPC Central Committee; State Councilor; Member of State Council Secretariat Party Leadership Group; Minister of Public Security; Secretary of Party Leadership Group; Deputy Secretary of Central Political and Legal Affairs Commission; Commissioner General,蔡奇,Cai Qi,1,2,北京; 福建,province/municipality,21,24,17,1974,2020,2,recent before 20th Congress,High,,,45.25,usable
+叶建春,Ye Jianchun,Governor of Jiangxi,丁薛祥,Ding Xuexiang,1,1,上海,province/municipality,20,22,22,1984,2005,17,older overlap,High,Y,"Shanghai (maybe, he worked for the water resources group)",45.0,usable
+程丽华（女）,Cheng Lihua (Nv),Secretary and Chairman of the Chongqing CPPCC Party Leadership Group,赵乐际,Zhao Leji,1,1,青海,province/municipality,25,24,24,1984,2007,15,older overlap,High,,,44.25,usable
+沈跃跃（女）,Shen Yueyue (Nv),Vice Chairwoman of the Chinese People's Political Consultative Conference; Previous President of the All-China Women's Federation,李强,Li Qiang,1,1,浙江,province/municipality,30,22,20,1977,2001,21,older overlap,High,,,42.5,usable
+黄坤明,Huang Kunming,Secretary of the Guangdong Provincial Party Committee,习近平,Xi Jinping,1,2,浙江; 福建,province/municipality,26,21,15,1985,2007,15,older overlap,High,,,42.0,usable
+尹弘,Yin Hong,"Party Secretary of Jiangxi; secretary general of the SCMPC;
+Director of the Jiangxi Provincial Committee of Finance Committee",丁薛祥,Ding Xuexiang,1,1,上海,province/municipality,27,20,20,1994,2013,9,medium-term before 20th Congress,High,,,38.75,usable
+王小洪,Wang Xiaohong,Member of Secretariat of the CPC Central Committee; State Councilor; Member of State Council Secretariat Party Leadership Group; Minister of Public Security; Secretary of Party Leadership Group; Deputy Secretary of Central Political and Legal Affairs Commission; Commissioner General,习近平,Xi Jinping,1,1,福建,province/municipality,15,18,18,1985,2002,20,older overlap,High,Y,Fujian,37.75,usable
+裴金佳,Pei Jinjia,Minister of Veteran Affairs,习近平,Xi Jinping,1,1,福建,province/municipality,16,18,18,1985,2002,20,older overlap,High,,,33.0,usable
+裴金佳,Pei Jinjia,Minister of Veteran Affairs,蔡奇,Cai Qi,1,1,福建,province/municipality,15,17,17,1983,1999,23,older overlap,High,,,31.25,usable
+赵一德,Zhao Yide,Secretary of the Shaanxi Provincial Party Committee,蔡奇,Cai Qi,1,1,浙江,province/municipality,17,16,16,1999,2014,8,medium-term before 20th Congress,High,,,30.25,usable
+慎海雄,Shen Haixiong,"Vice Minister of the Publicity Department of the CPC Central Committee, Secretary of the Party Leadership Group, Director and Editor-in-Chief of China Media Group",李强,Li Qiang,1,1,浙江,province/municipality,14,16,16,1989,2004,18,older overlap,High,,,29.5,usable
+陈一新,Chen Yixin,Minister of State Security; Member of the Central Political and Legal Affairs Commission,蔡奇,Cai Qi,1,1,浙江,province/municipality,13,16,16,1999,2014,8,medium-term before 20th Congress,High,,,29.25,usable
+黄坤明,Huang Kunming,Secretary of the Guangdong Provincial Party Committee,李强,Li Qiang,1,1,浙江,province/municipality,19,15,15,1999,2013,9,medium-term before 20th Congress,High,,,29.25,usable
+陈敏尔,Chen Min'er,Politburo member; Party secretary of Tianjin,蔡奇,Cai Qi,1,1,浙江,province/municipality,12,14,14,1999,2012,10,medium-term before 20th Congress,High,,,26.0,usable
+楼阳生,Lou Yangsheng,Former Party Chief of Henan Province (retired),蔡奇,Cai Qi,1,1,浙江,province/municipality,12,11,11,1999,2009,13,older overlap,High,,,21.5,usable
+龚正,Gong Zheng,Mayor of Shangai Municipial People's Government ,李强,Li Qiang,1,2,上海; 浙江,province/municipality,15,9,8,2008,2020,2,recent before 20th Congress,High,,,20.25,usable
+慎海雄,Shen Haixiong,"Vice Minister of the Publicity Department of the CPC Central Committee, Secretary of the Party Leadership Group, Director and Editor-in-Chief of China Media Group",丁薛祥,Ding Xuexiang,1,1,上海,province/municipality,12,9,9,2004,2012,10,medium-term before 20th Congress,High,,,18.5,usable
+王伟中,Wang Weizhong,"Secretary of the CPC Inner Mongolia Autonomous Region Committee, Secretary of the Party Leadership Group and Chairman of the Standing Committee of the Inner Mongolia Autonomous Region People's Congress",李希,Li Xi,1,1,广东,province/municipality,9,6,6,2017,2022,0,active/after 20th Congress,High,Y,Guangdong,18.25,usable
+应勇,Ying Yong,Procurator-General of the Supreme People's Procuratorate,蔡奇,Cai Qi,1,1,浙江,province/municipality,10,9,9,1999,2007,15,older overlap,High,,,18.0,usable
+应勇,Ying Yong,Procurator-General of the Supreme People's Procuratorate,习近平,Xi Jinping,1,2,上海; 浙江,province/municipality,11,7,6,2002,2007,15,older overlap,High,,,16.25,usable
+郝鹏,Hao Peng,Secetary of the Liaoning Provincial Party Committee,李希,Li Xi,1,1,甘肃,province/municipality,9,8,5,1976,2003,19,older overlap,High,,,16.25,usable
+陆治原,Lu Zhiyuan,Minister of Civil Affairs,李希,Li Xi,1,1,陕西,province/municipality,7,8,8,2004,2011,11,older overlap,High,,,15.75,usable
+景俊海,Jing Junhai,"Deputy Director of the Education, Science, Culture,  and Health Commitee of the National People's Congress",李希,Li Xi,1,1,陕西,province/municipality,6,8,8,2004,2011,11,older overlap,High,,,15.5,usable
+王莉霞（女，蒙古族）,"Wang Lixia (Nv, Mengguzu)","Deputy Secretary of the Party Committee of Inner Mongolia Autonomous Region; Chairman, Inner Mongolia Autonomous Regional People's Government; Secretary of the Party Leadership Group of the Government",李希,Li Xi,1,1,陕西,province/municipality,5,8,8,2004,2011,11,older overlap,High,,,15.25,usable
+王正谱,Wang Zhengpu,Deputy Secretary of the Hebei Provincial Party Committee; Governor of Hebei Provincial; Secretary of Party Leadership Group,李希,Li Xi,1,1,辽宁,province/municipality,8,4,4,2014,2017,5,recent before 20th Congress,High,Y,Liaoning,15.0,usable
+龚正,Gong Zheng,Mayor of Shangai Municipial People's Government ,蔡奇,Cai Qi,1,1,浙江,province/municipality,9,7,7,2008,2014,8,medium-term before 20th Congress,High,,,14.75,usable
+王曦,Wang Xi,Vice Governor of Guangdong,李希,Li Xi,1,2,上海; 广东,province/municipality,6,7,4,2011,2022,0,active/after 20th Congress,Medium,,,14.0,usable
+应勇,Ying Yong,Procurator-General of the Supreme People's Procuratorate,丁薛祥,Ding Xuexiang,1,1,上海,province/municipality,5,7,7,2007,2013,9,medium-term before 20th Congress,High,,,13.75,usable
+楼阳生,Lou Yangsheng,Former Party Chief of Henan Province (retired),习近平,Xi Jinping,1,1,浙江,province/municipality,10,6,6,2002,2007,15,older overlap,High,,,13.5,usable
+殷勇,Yin Yong,"Deputy Secretary of the Beijing Municipal Committee, Secretary of the Party Leadership Group of the Municipal Government, and Mayor",蔡奇,Cai Qi,1,1,北京,province/municipality,10,6,6,2018,2023,0,active/after 20th Congress,High,,,13.5,usable
+陈吉宁,Chen Jining,Politburo member; Party secretary of Shanghai,蔡奇,Cai Qi,1,1,北京,province/municipality,8,6,6,2017,2022,0,active/after 20th Congress,High,,,13.0,usable
+赵一德,Zhao Yide,Secretary of the Shaanxi Provincial Party Committee,习近平,Xi Jinping,1,1,浙江,province/municipality,7,6,6,2002,2007,15,older overlap,High,,,12.75,usable
+陆治原,Lu Zhiyuan,Minister of Civil Affairs,赵乐际,Zhao Leji,1,1,陕西,province/municipality,7,6,6,2007,2012,10,medium-term before 20th Congress,High,,,12.75,usable
+景俊海,Jing Junhai,"Deputy Director of the Education, Science, Culture,  and Health Commitee of the National People's Congress",赵乐际,Zhao Leji,1,1,陕西,province/municipality,6,6,6,2007,2012,10,medium-term before 20th Congress,High,,,12.5,usable
+陈一新,Chen Yixin,Minister of State Security; Member of the Central Political and Legal Affairs Commission,习近平,Xi Jinping,1,1,浙江,province/municipality,6,6,6,2002,2007,15,older overlap,High,,,12.5,usable
+陈小江,Chen Xiaojiang,Current Party Secretary of Xinjiang; Former Executive Deputy Director of the United Front Work Department,李希,Li Xi,1,2,甘肃; 辽宁,province/municipality,6,6,4,2001,2017,5,recent before 20th Congress,Medium,,,12.5,usable
+陈敏尔,Chen Min'er,Politburo member; Party secretary of Tianjin,习近平,Xi Jinping,1,1,浙江,province/municipality,6,6,6,2002,2007,15,older overlap,High,,,12.5,usable
+慎海雄,Shen Haixiong,"Vice Minister of the Publicity Department of the CPC Central Committee, Secretary of the Party Leadership Group, Director and Editor-in-Chief of China Media Group",蔡奇,Cai Qi,1,1,浙江,province/municipality,5,6,6,1999,2004,18,older overlap,High,,,12.25,usable
+王莉霞（女，蒙古族）,"Wang Lixia (Nv, Mengguzu)","Deputy Secretary of the Party Committee of Inner Mongolia Autonomous Region; Chairman, Inner Mongolia Autonomous Regional People's Government; Secretary of the Party Leadership Group of the Government",赵乐际,Zhao Leji,1,1,陕西,province/municipality,4,6,6,2007,2012,10,medium-term before 20th Congress,High,,,12.0,usable
+金壮龙,Jin Zhuanglong,Former Minister of Industry and Information Technology ,丁薛祥,Ding Xuexiang,1,1,上海,province/municipality,8,5,2,1989,1999,23,older overlap,High,,,11.5,usable
+许勤,Xu Qin,Party Secretary of Heilongjiang,蔡奇,Cai Qi,1,1,北京,province/municipality,6,5,5,2017,2021,1,recent before 20th Congress,High,,,11.0,usable
+李小新（女）,Li Xiaoxin (Nv),Deputy Director of CCP Organization Department,赵乐际,Zhao Leji,1,1,中央组织部,central party organ,2,6,6,2012,2017,5,recent before 20th Congress,High,,,10.9,partial
+应勇,Ying Yong,Procurator-General of the Supreme People's Procuratorate,李希,Li Xi,1,2,上海; 中国浦东干部学院,province/municipality; university/research,7,5,4,2011,2014,8,medium-term before 20th Congress,High,,,10.35,usable
+易会满,Yi Huiman,Resident Deputy Director of the Economic Commission; Formerly Chairman of the China Securities Regulatory Commission,李强,Li Qiang,1,2,浙江; 浙江大学,province/municipality; university/research,8,6,3,1995,2000,22,older overlap,High,,,10.3,usable
+石泰峰,Shi Taifeng,"First-Ranked Vice Chair of CPPCC;
+Minister of CCP United Front Work Department",李强,Li Qiang,1,1,江苏,province/municipality,4,2,2,2016,2017,5,recent before 20th Congress,Medium,Y,Jiangsu Province (2000s),10.0,usable
+马兴瑞,Ma Xingrui,"Member of the  Politburo of the CCP Central Committee, Secretary of the Party Committee of the Xinjiang Uygur Autonomous Region, and First Political Commissar of the Xinjiang Production and Construction Corps.",李希,Li Xi,1,1,广东,province/municipality,2,5,5,2017,2021,1,recent before 20th Congress,High,,,10.0,usable
+尹弘,Yin Hong,"Party Secretary of Jiangxi; secretary general of the SCMPC;
+Director of the Jiangxi Provincial Committee of Finance Committee",李希,Li Xi,1,1,上海,province/municipality,6,4,4,2011,2014,8,medium-term before 20th Congress,High,,,9.5,usable
+沈晓明,Shen Xiaoming,Secretary of the Hunan Provincial Party Committee,李希,Li Xi,1,1,上海,province/municipality,6,4,4,2011,2014,8,medium-term before 20th Congress,High,,,9.5,usable
+王健,Wang Jian,Executive Vice Governor of Liaoning,李希,Li Xi,1,1,辽宁,province/municipality,6,4,4,2014,2017,5,recent before 20th Congress,High,,,9.5,usable
+郑新聪,Zheng Xincong,Deputy Director of the Central Hong Kong and Macao Work Office; Deputy Director of the Central Hong Kong and Macao Affairs Office of the State Council; Director of the Liason Office of the Central Government in Macao; Advisor of Macao National Security Affairs,习近平,Xi Jinping,1,1,福建,province/municipality,5,4,1,1991,2001,21,older overlap,High,,,9.25,usable
+齐玉,Qi Yu,"Secretary of the Party Committee of the Ministry of Foreign Affairs, and President of the Party School of the Ministry",赵乐际,Zhao Leji,1,2,中央组织部; 青海,central party organ; province/municipality,2,4,3,2007,2017,5,recent before 20th Congress,High,,,9.2,usable
+慎海雄,Shen Haixiong,"Vice Minister of the Publicity Department of the CPC Central Committee, Secretary of the Party Leadership Group, Director and Editor-in-Chief of China Media Group",习近平,Xi Jinping,1,2,上海; 浙江,province/municipality,4,4,3,2002,2007,15,older overlap,Medium,,,9.0,usable
+慎海雄,Shen Haixiong,"Vice Minister of the Publicity Department of the CPC Central Committee, Secretary of the Party Leadership Group, Director and Editor-in-Chief of China Media Group",李希,Li Xi,1,2,上海; 广东,province/municipality,3,4,2,2011,2018,4,recent before 20th Congress,Medium,,,8.75,usable
+周乃翔,Zhou Naixiang,Deputy Secretary of the Shandong Provincial Party Committee and Governor,丁薛祥,Ding Xuexiang,1,1,上海,province/municipality,6,3,3,1994,1996,26,older overlap,High,,,8.0,usable
+张工,Zhang Gong,Deputy Secretary and Mayor of the Tianjin Municipal Party Committee,蔡奇,Cai Qi,1,1,北京,province/municipality,6,3,3,2016,2018,4,recent before 20th Congress,High,,,8.0,usable
+徐麟,Xu Lin,Secretary of the Guizhou Provincial Party Committee,李希,Li Xi,1,1,上海,province/municipality,4,4,4,2011,2014,8,medium-term before 20th Congress,Medium,,,8.0,usable
+王文涛,Wang Wentao,Minister and Secretary of Party Leadership Group of Ministry of Commerce ,习近平,Xi Jinping,1,1,上海,province/municipality,2,1,1,2007,2007,15,older overlap,Medium,Y,Shanghai,8.0,usable
+黄强,Huang Qiang,"Secretary of the Jilin Provincial Party Committee, Chairman of the Standing Committee of the Jilin Provincial People's Congress, First Secretary of the Provincial Military District Party Committee",丁薛祥,Ding Xuexiang,1,1,上海,province/municipality,4,4,4,2003,2006,16,older overlap,Medium,,,8.0,usable
+刘金国,Liu Jinguo,Secretary of the CCP Secretariat; Deputy Secretary of CCDI;  Director of National Supervisory Commission,习近平,Xi Jinping,1,1,河北,province/municipality,3,4,4,1982,1985,37,older overlap,Medium,,,7.75,usable
+郑新聪,Zheng Xincong,Deputy Director of the Central Hong Kong and Macao Work Office; Deputy Director of the Central Hong Kong and Macao Affairs Office of the State Council; Director of the Liason Office of the Central Government in Macao; Advisor of Macao National Security Affairs,蔡奇,Cai Qi,1,1,福建,province/municipality,5,3,1,1991,1998,24,older overlap,High,,,7.75,usable
+铁凝（女）,Tie Ning (Nv),"Vice Chairman of the Standing Committee of the 14th National People's Congress, Chairman of the China Federation of Literary and Art Circles",习近平,Xi Jinping,1,1,河北,province/municipality,3,4,4,1982,1985,37,older overlap,Medium,,,7.75,usable
+吴政隆,Wu Zhenglong,Secretary-General of the State Council of China,李强,Li Qiang,1,1,江苏,province/municipality,10,2,2,2016,2017,5,recent before 20th Congress,High,,,7.5,usable
+许昆林,Xu Kunlin,Governor of Jiangsu,李强,Li Qiang,1,1,上海,province/municipality,1,4,4,2017,2020,2,recent before 20th Congress,Medium,,,7.25,usable
+尹弘,Yin Hong,"Party Secretary of Jiangxi; secretary general of the SCMPC;
+Director of the Jiangxi Provincial Committee of Finance Committee",李强,Li Qiang,1,1,上海,province/municipality,4,3,3,2017,2019,3,recent before 20th Congress,Medium,,,6.5,usable
+袁家军,Yuan Jiajun,Politburo Member; Secretary of the Chongqing Municipal Party Committee,李强,Li Qiang,1,1,浙江,province/municipality,4,3,3,2014,2016,6,medium-term before 20th Congress,Medium,,,6.5,usable
+阴和俊,Yin Hejun,Minister of Science and Technology,蔡奇,Cai Qi,1,1,北京,province/municipality,6,2,2,2017,2018,4,recent before 20th Congress,High,,,6.5,usable
+刘宁,Liu Ning,"Secretary, Henan Provincial Committee of the CPC; Secretary General of the SCMPC ",习近平,Xi Jinping,1,1,清华大学,university/research,1,2,2,1978,1979,43,older overlap,Low,Y,Maybe Tsinghua,6.45,usable
+周乃翔,Zhou Naixiang,Deputy Secretary of the Shandong Provincial Party Committee and Governor,李强,Li Qiang,1,1,江苏,province/municipality,5,2,2,2016,2017,5,recent before 20th Congress,High,,,6.25,usable
+侯建国,Hou Jianguo,President of the Chinese Academy of Sciences,蔡奇,Cai Qi,1,1,福建,province/municipality,2,3,3,1989,1991,31,older overlap,Medium,,,6.0,usable
+侯建国,Hou Jianguo,President of the Chinese Academy of Sciences,习近平,Xi Jinping,1,1,福建,province/municipality,2,3,3,1989,1991,31,older overlap,Medium,,,6.0,usable
+信长星,Xin Changxing,Secretary of the Jiangsu Provincial Party Committee ,李希,Li Xi,1,1,陕西,province/municipality,2,3,3,2004,2006,16,older overlap,Medium,,,6.0,usable
+李书磊,Li Shulei,Minister of Publicity Department of the CPC Central Committee,李希,Li Xi,1,1,陕西,province/municipality,2,3,3,2004,2006,16,older overlap,Medium,,,6.0,usable
+沈跃跃（女）,Shen Yueyue (Nv),Vice Chairwoman of the Chinese People's Political Consultative Conference; Previous President of the All-China Women's Federation,蔡奇,Cai Qi,1,1,浙江,province/municipality,2,3,3,1999,2001,21,older overlap,Medium,,,6.0,usable
+胡和平,Hu Heping,Deputy Minister of Daily Work of the Central Propraganda Department,李强,Li Qiang,1,1,浙江,province/municipality,2,3,3,2013,2015,7,medium-term before 20th Congress,Medium,,,6.0,usable
+王晓晖,Wang Xiaohui,"Secretary of the Sichuan Provincial Party Committee;
+Chairman of Standing Committee of the People's Congress of Sichuan Province",王沪宁,Wang Huning,1,1,中央政策研究室,central party organ,4,2,1,2014,2017,5,recent before 20th Congress,High,,,5.8,partial
+王曦,Wang Xi,Vice Governor of Guangdong,李强,Li Qiang,1,1,上海,province/municipality,1,3,3,2017,2019,3,recent before 20th Congress,Medium,,,5.75,usable
+孟祥锋,Meng Xiangfeng,Deputy Director of the General Office of the Central Committee,丁薛祥,Ding Xuexiang,1,1,中央办公厅,central party organ,3,2,1,2015,2020,2,recent before 20th Congress,High,,,5.55,usable
+王蒙徽,Wang Menghui,Member of 20th Central Committee; former arty Secretary of Hubei from 2022 to 2024,李希,Li Xi,1,1,辽宁,province/municipality,3,2,2,2016,2017,5,recent before 20th Congress,Medium,,,4.75,usable
+丁向群,Ding Xiangqun,Secretary of the Party Committee and Chairman of the China Life Insurance Company Limited,李强,Li Qiang,1,1,浙江,province/municipality,2,2,2,2005,2006,16,older overlap,Medium,,,4.5,usable
+侯凯,Hou Kai,Secretary of the Party Leadership Group and Auditor General of the National Audit Office,李希,Li Xi,1,1,上海,province/municipality,2,2,2,2013,2014,8,medium-term before 20th Congress,Medium,,,4.5,usable
+刘伟,Liu Wei,Secretary of the Party Leadership Group and the Ministry of the Ministry of Transport,蔡奇,Cai Qi,1,1,北京,province/municipality,2,2,2,2022,2023,0,active/after 20th Congress,Medium,,,4.5,usable
+王文涛,Wang Wentao,Minister and Secretary of Party Leadership Group of Ministry of Commerce ,王沪宁,Wang Huning,1,1,复旦大学,university/research,2,5,5,1981,1985,37,older overlap,Medium,,,4.5,usable
+胡和平,Hu Heping,Deputy Minister of Daily Work of the Central Propraganda Department,蔡奇,Cai Qi,1,1,浙江,province/municipality,2,2,2,2013,2014,8,medium-term before 20th Congress,Medium,,,4.5,usable
+许昆林,Xu Kunlin,Governor of Jiangsu,蔡奇,Cai Qi,1,1,福建,province/municipality,2,2,2,1986,1987,35,older overlap,Medium,,,4.5,usable
+邹加怡（女）,Zou Jiayi (Nv),Next President of the Asian Infrastructure Investment Bank; Former vice minister of the Ministry of Finance,李希,Li Xi,1,1,甘肃,province/municipality,2,2,2,1989,1990,32,older overlap,Medium,,,4.5,usable
+周祖翼,Zhou Zuyi,Secretary of the Fujian Provincial Party Committee,赵乐际,Zhao Leji,1,1,中央组织部,central party organ,2,2,1,2014,2016,6,medium-term before 20th Congress,Medium,,,4.3,usable
+丁向群,Ding Xiangqun,Secretary of the Party Committee and Chairman of the China Life Insurance Company Limited,蔡奇,Cai Qi,1,1,浙江,province/municipality,1,2,2,2005,2006,16,older overlap,Medium,,,4.25,usable
+丁向群,Ding Xiangqun,Secretary of the Party Committee and Chairman of the China Life Insurance Company Limited,习近平,Xi Jinping,1,1,浙江,province/municipality,1,2,2,2005,2006,16,older overlap,Medium,,,4.25,usable
+易会满,Yi Huiman,Resident Deputy Director of the Economic Commission; Formerly Chairman of the China Securities Regulatory Commission,蔡奇,Cai Qi,1,1,浙江,province/municipality,1,2,2,1999,2000,22,older overlap,Medium,,,4.25,usable
+许昆林,Xu Kunlin,Governor of Jiangsu,习近平,Xi Jinping,1,1,福建,province/municipality,1,2,2,1986,1987,35,older overlap,Medium,,,4.25,usable
+沈跃跃（女）,Shen Yueyue (Nv),Vice Chairwoman of the Chinese People's Political Consultative Conference; Previous President of the All-China Women's Federation,赵乐际,Zhao Leji,1,1,中央组织部,central party organ,1,2,2,2012,2013,9,medium-term before 20th Congress,Medium,,,4.05,usable
+胡和平,Hu Heping,Deputy Minister of Daily Work of the Central Propraganda Department,李希,Li Xi,1,1,清华大学,university/research,2,4,4,2008,2011,11,older overlap,Medium,,,3.9,usable
+黄坤明,Huang Kunming,Secretary of the Guangdong Provincial Party Committee,李希,Li Xi,1,2,广东; 清华大学,province/municipality; university/research,3,2,1,2008,2022,0,active/after 20th Congress,Medium,,,3.85,usable
+胡和平,Hu Heping,Deputy Minister of Daily Work of the Central Propraganda Department,习近平,Xi Jinping,1,1,清华大学,university/research,3,5,5,1998,2002,20,older overlap,Low,,,3.75,usable
+陈吉宁,Chen Jining,Politburo member; Party secretary of Shanghai,李希,Li Xi,1,1,清华大学,university/research,1,4,4,2008,2011,11,older overlap,Medium,,,3.65,usable
+陈吉宁,Chen Jining,Politburo member; Party secretary of Shanghai,习近平,Xi Jinping,1,1,清华大学,university/research,1,4,4,1999,2002,20,older overlap,Medium,,,3.65,usable
+孟凡利,Meng Fanli,Party Secretary of Shenzhen; Deputy Secretary of the Guandong Provincial Party ,李希,Li Xi,1,1,广东,province/municipality,4,1,1,2022,2022,0,active/after 20th Congress,Medium,,,3.5,usable
+傅华,Fu Hua,Editor-In-Chief of Xinhua News Agency,蔡奇,Cai Qi,1,1,北京,province/municipality,3,1,1,2017,2017,5,recent before 20th Congress,Medium,,,3.25,usable
+徐麟,Xu Lin,Secretary of the Guizhou Provincial Party Committee,习近平,Xi Jinping,1,1,上海,province/municipality,3,1,1,2007,2007,15,older overlap,Medium,,,3.25,usable
+景俊海,Jing Junhai,"Deputy Director of the Education, Science, Culture,  and Health Commitee of the National People's Congress",蔡奇,Cai Qi,1,1,北京,province/municipality,3,1,1,2017,2017,5,recent before 20th Congress,Medium,,,3.25,usable
+吴政隆,Wu Zhenglong,Secretary-General of the State Council of China,赵乐际,Zhao Leji,1,1,中国社会科学院,university/research,1,3,3,1996,1998,24,older overlap,Medium,,,3.05,usable
+李邑飞,Li Yifei, Party Secretary of Ningxi,赵乐际,Zhao Leji,1,1,中国社会科学院,university/research,1,3,3,1996,1998,24,older overlap,Medium,,,3.05,usable
+韩俊,Han Jun,Secretary of the Party Leadership Group and Minister of the Ministry of Agriculture and Rural Affair,赵乐际,Zhao Leji,1,1,中国社会科学院,university/research,1,3,3,1996,1998,24,older overlap,Medium,,,3.05,usable
+高翔,Gao Xiang,President of the Chinese Academy of Social Sciences ,赵乐际,Zhao Leji,1,1,中国社会科学院,university/research,1,3,3,1996,1998,24,older overlap,Medium,,,3.05,usable
+孟祥锋,Meng Xiangfeng,Deputy Director of the General Office of the Central Committee,蔡奇,Cai Qi,1,1,浙江,province/municipality,2,1,1,2007,2007,15,older overlap,Medium,,,3.0,usable
+尹力,Yin Li,Party Secretary of Beijing,蔡奇,Cai Qi,1,1,北京,province/municipality,2,1,1,2022,2022,0,active/after 20th Congress,Medium,,,3.0,usable
+张林,Zhang Lin,Head of Logistic Support of the CMC,李希,Li Xi,1,1,辽宁,province/municipality,2,1,1,2015,2015,7,medium-term before 20th Congress,Medium,,,3.0,partial
+易炼红,Yi Lianhong,Deputy Director of the NPC Financial and Economic Committee,李希,Li Xi,1,1,辽宁,province/municipality,2,1,1,2017,2017,5,recent before 20th Congress,Medium,,,3.0,usable
+王新伟,Wang Xinwei,Governor of Liaoning,蔡奇,Cai Qi,1,1,浙江,province/municipality,2,1,1,2004,2004,18,older overlap,Medium,,,3.0,usable
+王新伟,Wang Xinwei,Governor of Liaoning,李强,Li Qiang,1,1,浙江,province/municipality,2,1,1,2004,2004,18,older overlap,Medium,,,3.0,usable
+王曦,Wang Xi,Vice Governor of Guangdong,习近平,Xi Jinping,1,1,上海,province/municipality,2,1,1,2007,2007,15,older overlap,Medium,,,3.0,usable
+蔡剑江,Cai Jianjiang,Secretary of the Party Committee of the Office of the Central Air Traffic Control Committee,丁薛祥,Ding Xuexiang,1,1,上海,province/municipality,2,1,1,2001,2001,21,older overlap,Medium,,,3.0,usable
+袁家军,Yuan Jiajun,Politburo Member; Secretary of the Chongqing Municipal Party Committee,蔡奇,Cai Qi,1,1,浙江,province/municipality,2,1,1,2014,2014,8,medium-term before 20th Congress,Medium,,,3.0,usable
+陈吉宁,Chen Jining,Politburo member; Party secretary of Shanghai,李强,Li Qiang,1,1,上海,province/municipality,2,1,1,2022,2022,0,active/after 20th Congress,Medium,,,3.0,usable
+任振鹤,Ren Zhenhe,Governor of Gansu; Deputy Secretary of the Gansu Provincial Party Committee; Chairman of the Provincial Committee’s Finance Committee;  Secretary of Party Leadership Group,丁薛祥,Ding Xuexiang,1,1,上海,province/municipality,1,1,1,1995,1995,27,older overlap,Medium,,,2.75,usable
+何卫东,He Weidong,CMC Vice Chairman,李希,Li Xi,1,1,上海,province/municipality,1,1,1,2014,2014,8,medium-term before 20th Congress,Medium,,,2.75,usable
+侯凯,Hou Kai,Secretary of the Party Leadership Group and Auditor General of the National Audit Office,丁薛祥,Ding Xuexiang,1,1,上海,province/municipality,1,1,1,2013,2013,9,medium-term before 20th Congress,Medium,,,2.75,usable
+傅华,Fu Hua,Editor-In-Chief of Xinhua News Agency,李希,Li Xi,1,1,广东,province/municipality,1,1,1,2018,2018,4,recent before 20th Congress,Medium,,,2.75,usable
+冯飞,Feng Fei,Party Secretary of Hainan; Secretary General of the SCMPC; Senior Party Secretary of the Hainan Provincial Military Region Party Committee; Director of Hainan Local Financial Supervision and Administration Bureau,李强,Li Qiang,1,1,浙江,province/municipality,1,1,1,2016,2016,6,medium-term before 20th Congress,Medium,,,2.75,usable
+周祖翼,Zhou Zuyi,Secretary of the Fujian Provincial Party Committee,丁薛祥,Ding Xuexiang,1,1,上海,province/municipality,1,1,1,2008,2008,14,older overlap,Medium,,,2.75,usable
+唐登杰,Tang Dengjie,Sectretary of the Shanxi  Provincial Party Committee,李希,Li Xi,1,1,上海,province/municipality,1,1,1,2011,2011,11,older overlap,Medium,,,2.75,usable
+唐登杰,Tang Dengjie,Sectretary of the Shanxi  Provincial Party Committee,习近平,Xi Jinping,1,1,上海,province/municipality,1,1,1,2007,2007,15,older overlap,Medium,,,2.75,usable
+孟祥锋,Meng Xiangfeng,Deputy Director of the General Office of the Central Committee,李强,Li Qiang,1,1,浙江,province/municipality,1,1,1,2007,2007,15,older overlap,Medium,,,2.75,usable
+孟祥锋,Meng Xiangfeng,Deputy Director of the General Office of the Central Committee,习近平,Xi Jinping,1,1,浙江,province/municipality,1,1,1,2007,2007,15,older overlap,Medium,,,2.75,usable
+尹弘,Yin Hong,"Party Secretary of Jiangxi; secretary general of the SCMPC;
+Director of the Jiangxi Provincial Committee of Finance Committee",习近平,Xi Jinping,1,1,上海,province/municipality,1,1,1,2007,2007,15,older overlap,Medium,,,2.75,usable
+张庆伟,Zhang Qingwei,Vice Chairman of the Standing Committee of the 14th National People's Congress,蔡奇,Cai Qi,1,1,北京,province/municipality,1,1,1,2022,2022,0,active/after 20th Congress,Medium,,,2.75,usable
+李书磊,Li Shulei,Minister of Publicity Department of the CPC Central Committee,蔡奇,Cai Qi,1,1,北京,province/municipality,1,1,1,2016,2016,6,medium-term before 20th Congress,Medium,,,2.75,usable
+沈晓明,Shen Xiaoming,Secretary of the Hunan Provincial Party Committee,习近平,Xi Jinping,1,1,上海,province/municipality,1,1,1,2007,2007,15,older overlap,Medium,,,2.75,usable
+王文涛,Wang Wentao,Minister and Secretary of Party Leadership Group of Ministry of Commerce ,李希,Li Xi,1,1,上海,province/municipality,1,1,1,2011,2011,11,older overlap,Medium,,,2.75,usable
+王新伟,Wang Xinwei,Governor of Liaoning,习近平,Xi Jinping,1,1,浙江,province/municipality,1,1,1,2004,2004,18,older overlap,Medium,,,2.75,usable
+胡春华,Hu Chunhua,Vice Chairman of the National Committee of the Chinese People's Political Consultative Conference,李希,Li Xi,1,1,广东,province/municipality,1,1,1,2017,2017,5,recent before 20th Congress,Medium,,,2.75,usable
+蓝佛安,Lan Foan,Minister and party branch secretary of Finance.,李希,Li Xi,1,1,广东,province/municipality,1,1,1,2017,2017,5,recent before 20th Congress,Medium,,,2.75,usable
+许勤,Xu Qin,Party Secretary of Heilongjiang,李希,Li Xi,1,1,广东,province/municipality,1,1,1,2017,2017,5,recent before 20th Congress,Medium,,,2.75,usable
+陈一新,Chen Yixin,Minister of State Security; Member of the Central Political and Legal Affairs Commission,李希,Li Xi,1,1,清华大学,university/research,1,4,4,2008,2011,11,older overlap,Low,,,2.65,usable
+李书磊,Li Shulei,Minister of Publicity Department of the CPC Central Committee,赵乐际,Zhao Leji,1,1,北京大学,university/research,1,3,3,1978,1980,42,older overlap,Low,,,2.05,usable
+李屹,Li Yi,Party Secretary of China Federation of Literary and Art Circles,赵乐际,Zhao Leji,1,1,中国社会科学院,university/research,1,3,3,1996,1998,24,older overlap,Low,,,2.05,usable
+石泰峰,Shi Taifeng,"First-Ranked Vice Chair of CPPCC;
+Minister of CCP United Front Work Department",赵乐际,Zhao Leji,1,1,北京大学,university/research,1,3,3,1978,1980,42,older overlap,Low,,,2.05,usable
+王广华,Wang Guanghua,"Former Secretary, Party Leadership Group; Former Minister of the Ministry of Natural Resources;  Former National Chief Inspector of Natural Resources",赵乐际,Zhao Leji,1,1,北京大学,university/research,1,2,2,1979,1980,42,older overlap,Low,,,1.45,usable
+王蒙徽,Wang Menghui,Member of 20th Central Committee; former arty Secretary of Hubei from 2022 to 2024,习近平,Xi Jinping,1,1,清华大学,university/research,1,2,2,1978,1979,43,older overlap,Low,,,1.45,usable
+胡春华,Hu Chunhua,Vice Chairman of the National Committee of the Chinese People's Political Consultative Conference,赵乐际,Zhao Leji,1,1,北京大学,university/research,1,2,2,1979,1980,42,older overlap,Low,,,1.45,usable
+陈旭（女）,Chen Xu (Nv),Deputy director of the United Front Work Department; Director of the State Council's Overseas Chinese Affairs Office,李希,Li Xi,1,1,清华大学,university/research,2,1,1,2009,2009,13,older overlap,Low,,,1.1,usable
+卢红,Lu Hong (f.),Head of United Front Department of Chongqing Municipal Committee of the Chinese Communist Party,李希,Li Xi,1,1,清华大学,university/research,1,1,1,2009,2009,13,older overlap,Low,,,0.85,usable
+李邑飞,Li Yifei, Party Secretary of Ningxi,李希,Li Xi,1,1,清华大学,university/research,1,1,1,2008,2008,14,older overlap,Low,,,0.85,usable
+王伟中,Wang Weizhong,"Secretary of the CPC Inner Mongolia Autonomous Region Committee, Secretary of the Party Leadership Group and Chairman of the Standing Committee of the Inner Mongolia Autonomous Region People's Congress",习近平,Xi Jinping,1,1,清华大学,university/research,1,1,1,1979,1979,43,older overlap,Low,,,0.85,usable
+陈旭（女）,Chen Xu (Nv),Deputy director of the United Front Work Department; Director of the State Council's Overseas Chinese Affairs Office,习近平,Xi Jinping,1,1,清华大学,university/research,1,1,1,2002,2002,20,older overlap,Low,,,0.85,usable
+韩文秀,Han Wenxiu,"Deputy Director of the Central Finance Office in charge of daily work, and Director of the Central Rural Work Leading Group",赵乐际,Zhao Leji,1,1,北京大学,university/research,1,1,1,1980,1980,42,older overlap,Low,,,0.85,usable

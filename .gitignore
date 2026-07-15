@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Word/Office lock files
+~$*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors
+.vscode/
+.idea/
+
+# Claude Code
+.claude/
+CLAUDE.md
+
+# Raw scrape cache: big and fully regenerable by rerunning the scripts
+# in Faction_data/scripts/data_collection/
+Faction_data/scrape_cache/
