@@ -448,12 +448,16 @@ const DATA = {"min_year":1968,"max_year":2026,"pbsc_order":["习近平","李强"
         // not real geography) that throws off auto-fit framing by pulling
         // the effective view south/small. Centering on mainland China with
         // Hainan at the bottom crops that inset out of view.
-        // roam starts enabled (drag-only -- see the custom wheel handler
-        // below for zoom) because playback starts paused -- play()/pause()
-        // toggle this off/on so dragging the map can never compete with the
-        // autoplay animation loop for frame time (that fight is what caused
-        // the dots-lag-behind bug earlier).
-        map: "china", roam: "move", zoom: 1.75, center: [98.5, 35.5],
+        // roam starts enabled because playback starts paused -- play()/
+        // pause() toggle this off/on so dragging/zooming the map can never
+        // compete with the autoplay animation loop for frame time. Native
+        // roam (not a custom wheel handler) is deliberate: a hand-rolled
+        // zoom via dispatchAction/setOption kept silently desyncing the
+        // map's own boundary redraw from the scatter dots under fast
+        // scrolling, however it was tuned. Native roam is what ECharts
+        // itself keeps in sync, since it renders both through the same
+        // internal update path.
+        map: "china", roam: true, zoom: 1.75, center: [98.5, 35.5],
         itemStyle: { areaColor: "#dfe2e4", borderColor: "#a9adb1", borderWidth: 0.6 },
         emphasis: { itemStyle: { areaColor: "#cfd2d5" }, label: { show: false } },
       },
@@ -480,49 +484,6 @@ const DATA = {"min_year":1968,"max_year":2026,"pbsc_order":["习近平","李强"
       }],
     });
     renderSidebar(DATA.min_year);
-
-    // ECharts' built-in wheel zoom jumps ~10% per notch, which felt twitchy
-    // and hard to control -- roam above is "move"-only (drag/pan), and we
-    // drive zoom ourselves here.
-    //
-    // This used to go through chart.dispatchAction({type: "geoRoam", zoom}),
-    // which happily updates the reported geo.zoom option value (and moves
-    // the scatter dots, since those are just plotted against whatever
-    // center/zoom the geo *model* currently holds) but -- with roam set to
-    // "move" rather than true/"scale" -- silently never actually
-    // re-renders the map's own province polygons. Net effect: the dots
-    // drift to where a zoomed layout would put them while the coastline
-    // underneath stays frozen at the old zoom, which is exactly the "dots
-    // and map out of sync" bug. Computing the new center ourselves and
-    // pushing it through the same chart.setOption(...) path we already use
-    // for every year change sidesteps that -- setOption always fully
-    // re-renders the geo component, no gating on roam mode.
-    let zoomLocked = false;
-    document.getElementById("chart").addEventListener(
-      "wheel",
-      function (e) {
-        if (zoomLocked) return;
-        e.preventDefault();
-        const magnitude = Math.min(Math.abs(e.deltaY), 150);
-        const factor = Math.exp(-Math.sign(e.deltaY) * magnitude * 0.0005);
-        const geoOpt = chart.getOption().geo[0];
-        const oldZoom = geoOpt.zoom;
-        const oldCenter = geoOpt.center;
-        const newZoom = oldZoom * factor;
-        // Keep the point under the cursor stationary on screen while
-        // zooming, same "zoom to point" math a normal map control uses.
-        const point = chart.convertFromPixel({ geoIndex: 0 }, [e.offsetX, e.offsetY]);
-        const ratio = oldZoom / newZoom;
-        const newCenter = point
-          ? [
-              point[0] + (oldCenter[0] - point[0]) * ratio,
-              point[1] + (oldCenter[1] - point[1]) * ratio,
-            ]
-          : oldCenter;
-        chart.setOption({ geo: { zoom: newZoom, center: newCenter } });
-      },
-      { passive: false }
-    );
 
     // Native range input drives the year instead of ECharts' own timeline
     // component -- click-anywhere-to-jump and drag are both guaranteed
@@ -564,7 +525,6 @@ const DATA = {"min_year":1968,"max_year":2026,"pbsc_order":["习近平","李强"
       playBtn.innerHTML = "&#10074;&#10074;";
       playBtn.setAttribute("aria-label", "Pause");
       chart.setOption({ geo: { roam: false } });
-      zoomLocked = true;
       // Small fractional increments on a short interval, rather than
       // jumping a whole year every 500ms, so the thumb visibly glides
       // across the bar during autoplay instead of ticking year to year.
@@ -591,8 +551,7 @@ const DATA = {"min_year":1968,"max_year":2026,"pbsc_order":["习近平","李强"
       playTimer = null;
       playBtn.innerHTML = "&#9658;";
       playBtn.setAttribute("aria-label", "Play");
-      chart.setOption({ geo: { roam: "move" } });
-      zoomLocked = false;
+      chart.setOption({ geo: { roam: true } });
     }
     playBtn.addEventListener("click", () => (playTimer ? pause() : play()));
     document.addEventListener("keydown", function (e) {
