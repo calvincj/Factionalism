@@ -37,3 +37,4 @@ The `Faction_data/scrape_cache/` folder (raw scraped HTML/JSON) is not
 checked into git since it's huge and fully regenerable. If you clone this
 repo fresh and want to rerun anything from scratch, check
 `Faction_data/scripts/README.md` for which script to run and in what order.
+# Factionalism
