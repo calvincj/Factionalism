@@ -475,16 +475,23 @@ const DATA = {"min_year":1968,"max_year":2026,"pbsc_order":["习近平","李强"
 
     // ECharts' built-in wheel zoom jumps ~10% per notch, which felt twitchy
     // and hard to control -- roam above is "move"-only (drag/pan) and we
-    // drive zoom ourselves here with a much gentler step, dispatched as a
-    // geoRoam action so it still respects the same lock used during
-    // playback.
+    // drive zoom ourselves here, dispatched as a geoRoam action so it still
+    // respects the same lock used during playback.
+    //
+    // A fixed step per event (what this used to be) meant a single mouse
+    // wheel click -- one event, deltaY ~100 -- barely moved the map at all,
+    // while a fast trackpad swipe -- dozens of small events in a row --
+    // could still run away. Scaling the step to how hard the scroll/pinch
+    // was fixes both: a mouse click is one clear, visible step; light
+    // trackpad ticks stay gentle.
     let zoomLocked = false;
     document.getElementById("chart").addEventListener(
       "wheel",
       function (e) {
         if (zoomLocked) return;
         e.preventDefault();
-        const factor = e.deltaY < 0 ? 1.03 : 1 / 1.03;
+        const magnitude = Math.min(Math.abs(e.deltaY), 150);
+        const factor = Math.exp(-Math.sign(e.deltaY) * magnitude * 0.0005);
         chart.dispatchAction({
           type: "geoRoam",
           componentType: "geo",
