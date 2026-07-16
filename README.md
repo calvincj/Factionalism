@@ -1,6 +1,6 @@
 # Factionalism
 
-This is my Brookings internship project on CCP elite factionalism. The main
+This is my project on CCP elite factionalism. The main
 question I'm trying to answer: how connected are the members of the 20th
 Politburo Standing Committee (PBSC) to other Chinese officials, based on
 where their careers overlapped over the decades? If two people worked in the

@@ -223,6 +223,19 @@ const DATA = {"min_year":1968,"max_year":2026,"pbsc_order":["习近平","李强"
   // default (everyone in their normal color) view.
   let trackedPersonName = null;
 
+  // Cluster ring radii below are tuned in geo *degrees* at this zoom level.
+  // Degrees-to-pixels grows with zoom, so a fixed-degree radius spreads a
+  // cluster wider on screen the more you zoom in (and collapses it toward
+  // unreadable overlap the more you zoom out). currentZoomScale corrects
+  // for that -- BASE_ZOOM / (current zoom), applied as a multiplier on
+  // every ring radius -- so a cluster occupies roughly the same number of
+  // screen pixels regardless of zoom level. Updated from the chart's own
+  // "georoam" event (see buildAndRender), never by any zoom math of our
+  // own -- ECharts' native roam remains the only thing that ever touches
+  // geo.zoom/center.
+  const BASE_ZOOM = 1.75;
+  let currentZoomScale = 1;
+
   // ---- intro overlay ----
   let introDismissed = false;
   function dismissIntro() {
@@ -297,8 +310,8 @@ const DATA = {"min_year":1968,"max_year":2026,"pbsc_order":["习近平","李强"
         let lng = base[0], lat = base[1];
         if (pbscEntries.length > 1) {
           const angle = (i / pbscEntries.length) * Math.PI * 2;
-          lng += Math.cos(angle) * 0.35;
-          lat += Math.sin(angle) * 0.28;
+          lng += Math.cos(angle) * 0.35 * currentZoomScale;
+          lat += Math.sin(angle) * 0.28 * currentZoomScale;
         }
         pushPoint(entry, lng, lat);
       });
@@ -313,7 +326,7 @@ const DATA = {"min_year":1968,"max_year":2026,"pbsc_order":["习近平","李强"
         let lng = base[0], lat = base[1];
         if (entries.length > 1) {
           const angle = (i / Math.max(otherEntries.length, 1)) * Math.PI * 2 + 0.4;
-          const r = (noPbscHere ? 0.32 : 0.4) + Math.min(entries.length, 10) * (noPbscHere ? 0.035 : 0.045);
+          const r = ((noPbscHere ? 0.32 : 0.4) + Math.min(entries.length, 10) * (noPbscHere ? 0.035 : 0.045)) * currentZoomScale;
           lng += Math.cos(angle) * r;
           lat += Math.sin(angle) * r * 0.8;
         }
@@ -527,7 +540,18 @@ const DATA = {"min_year":1968,"max_year":2026,"pbsc_order":["习近平","李强"
     function renderYear(year) {
       lastYear = year;
       yearReadout.textContent = year;
-      chart.setOption({ series: [{ data: seriesDataForYear(year) }] });
+      // animation explicitly re-asserted every time: the zoom-triggered
+      // radius update below deliberately turns animation off for its own
+      // (very different) kind of update, and since ECharts merges option
+      // objects across setOption calls, leaving this implicit here would
+      // risk silently inheriting that "off" from whatever the last zoom
+      // event happened to do.
+      chart.setOption({
+        series: [{
+          animation: true, animationDurationUpdate: 400, animationEasingUpdate: "cubicOut",
+          data: seriesDataForYear(year),
+        }],
+      });
       renderSidebar(year);
     }
     function onSliderMove() {
@@ -535,6 +559,36 @@ const DATA = {"min_year":1968,"max_year":2026,"pbsc_order":["习近平","李强"
       if (year !== lastYear) renderYear(year);
     }
     slider.addEventListener("input", onSliderMove);
+
+    // Cluster ring radii are tuned in geo degrees for BASE_ZOOM -- rescale
+    // them by however far zoomed in/out we are now (currentZoomScale) so a
+    // cluster occupies roughly the same screen space at any zoom, instead
+    // of ballooning wide when zoomed in or collapsing into an unreadable
+    // clump when zoomed out. This listens to ECharts' own "georoam" event
+    // rather than computing/setting zoom itself -- native roam stays the
+    // one and only thing that ever touches geo.zoom/center, so this can't
+    // reintroduce the map/dots desync bug from before.
+    //
+    // "georoam" fires on every step of a drag or scroll, so this is
+    // throttled to at most once per animation frame, and skipped
+    // entirely if the zoom barely changed (e.g. a pure drag, which
+    // doesn't change zoom at all). animation is explicitly off for this
+    // update -- it should snap instantly to the corrected radius, not
+    // glide, since a 400ms glide firing on every scroll tick is exactly
+    // the kind of glitchy-feeling motion this needs to avoid.
+    let radiusRafPending = false;
+    chart.on("georoam", function () {
+      if (radiusRafPending) return;
+      radiusRafPending = true;
+      requestAnimationFrame(() => {
+        radiusRafPending = false;
+        const zoom = chart.getOption().geo[0].zoom;
+        const nextScale = BASE_ZOOM / zoom;
+        if (Math.abs(nextScale - currentZoomScale) < 0.02) return;
+        currentZoomScale = nextScale;
+        chart.setOption({ series: [{ animation: false, data: seriesDataForYear(lastYear) }] });
+      });
+    });
 
     let playTimer = null;
     function play() {
